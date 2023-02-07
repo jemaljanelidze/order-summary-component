@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --pale-blue: hsl(225, 100%, 94%);
+  --Bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --Desaturated-blue: hsl(224, 23%, 55%);
+  --Dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fw-900 {
+  font-weight: 900;
+}
+
+img {
+  max-width: 100%;
+}
+
+main {
+  background: url(./images/pattern-background-mobile.svg) no-repeat #f2f2f2;
+  background-size: 100vw;
+}
+
+.content-parent {
+  height: 709px;
+}
+
+.content {
+  width: 327px;
+  height: 567px;
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+  border-radius: 20px;
+}
+
+.img-section > img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.title {
+  color: var(--Dark-blue);
+  font-size: 1.375rem;
+  line-height: 1.8125rem;
+}
+
+.description {
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--Desaturated-blue);
+}
+
+.parent {
+  background: #F7F9FF;
+  border-radius: 11px;
+}
+
+.parent > .child-2 {
+  margin-left: 20px;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.parent > .child-2 > span:first-child {
+  color: var(--Dark-blue);
+}
+
+.parent > .child-2 > span:last-child {
+  color: var(--Desaturated-blue);
+}
+
+.parent > .child-3 > a {
+  font-size: 13px;
+  line-height: 17px;
+  color: var(--Bright-blue);
+  text-decoration: underline;
+}
+
+.parent > .child-3 > a:hover {
+  color: #766CF1;
+  text-decoration: none;
+}
+
+.font-style {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.footer > button:first-child {
+  background: var(--Bright-blue);
+  box-shadow: 0px 20px 20px rgb(56 42 225 / 19%);
+  border-radius: 11px;
+  padding: 15px;
+}
+
+.footer > button:first-child:hover {
+  background: #766CF1;;
+}
+
+.footer > button:last-child {
+  color: var(--Desaturated-blue);
+  background: none;
+}
+
+button {
+  border: none !important;
+}
+
+.footer > button:last-child:hover {
+  color: var(--Dark-blue);
+}
+
+.attribution {
+  font-size: 11px;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+@media screen and (min-width: 1440px) {
+  main {
+    background: url(./images/pattern-background-desktop.svg) no-repeat #f2f2f2;
+    background-size: 100vw;
+  }
+  
+  .content-parent {
+    height: 900px;
+  }
+
+  .content {
+    width: 450px;
+    height: 697px;
+  }
+
+  .heading {
+    padding: 2rem 3rem !important;
+  }
+
+  .title {
+    padding: 13px 0 !important;
+    font-size: 28px;
+    line-height: 37px;
+  }
+
+  .description {
+    padding: 4px 0 !important;
+    font-size: 1rem;
+    line-height: 26px;
+  }
+
+  .parent {
+    padding: 25px !important;
+  }
+
+  .parent > .child-2 {
+    font-size: 1rem;
+    line-height: 21px;
+  }
+
+  .parent > .child-3 > a {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .footer {
+    padding: 0 3rem !important;
+  }
+
+  .footer > button:last-child {
+    margin-top: 2rem !important;
+  }
+}
