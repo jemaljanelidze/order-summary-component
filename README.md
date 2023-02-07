@@ -11,8 +11,8 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 # Links
 
-- Solution URL: [Click here]()
-- Live Site URL: [Click here]()
+- Solution URL: [Click here](https://www.frontendmentor.io/solutions/ordersummarycomponent-0zQNj-bIPC)
+- Live Site URL: [Click here](https://jemaljanelidze.github.io/order-summary-component/)
 
 # Built with
 
